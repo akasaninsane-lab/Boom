@@ -1,0 +1,6 @@
+{
+  "name": "Power By AK - Football Tactical Prediction Platform",
+  "description": "AI-powered football match prediction platform with real-time injury tracking, tactical breakdown, simulation engine, head-to-head stats, and live match data.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

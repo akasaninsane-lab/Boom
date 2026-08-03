@@ -1,0 +1,153 @@
+@import "tailwindcss";
+
+/* High-Contrast Outdoor Light Mode Overrides */
+html.light-mode,
+body.light-mode,
+.light-mode {
+  color-scheme: light;
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+/* Background containers */
+.light-mode .bg-slate-950,
+.light-mode .bg-slate-950\/80,
+.light-mode .bg-slate-950\/60,
+.light-mode .bg-slate-950\/90 {
+  background-color: #f1f5f9 !important;
+}
+
+.light-mode .bg-slate-900,
+.light-mode .bg-slate-900\/95,
+.light-mode .bg-slate-900\/90,
+.light-mode .bg-slate-900\/80 {
+  background-color: #ffffff !important;
+}
+
+.light-mode .bg-slate-800,
+.light-mode .bg-slate-800\/80 {
+  background-color: #e2e8f0 !important;
+}
+
+/* Gradients */
+.light-mode .from-slate-900,
+.light-mode .via-slate-900 {
+  --tw-gradient-from: #f8fafc !important;
+  --tw-gradient-to: #f1f5f9 !important;
+}
+
+.light-mode .from-slate-950 {
+  --tw-gradient-from: #f1f5f9 !important;
+}
+
+.light-mode .from-emerald-950\/70,
+.light-mode .to-emerald-950\/60,
+.light-mode .to-teal-950\/70 {
+  background: linear-gradient(to right, #ecfdf5, #f0fdf4) !important;
+}
+
+/* Borders */
+.light-mode .border-slate-900,
+.light-mode .border-slate-800,
+.light-mode .border-slate-800\/80 {
+  border-color: #cbd5e1 !important;
+}
+
+.light-mode .border-slate-700,
+.light-mode .border-slate-700\/80 {
+  border-color: #94a3b8 !important;
+}
+
+/* Text contrasts */
+.light-mode .text-white,
+.light-mode .text-slate-100,
+.light-mode .text-slate-200 {
+  color: #0f172a !important;
+}
+
+.light-mode .text-slate-300 {
+  color: #1e293b !important;
+}
+
+.light-mode .text-slate-400 {
+  color: #334155 !important;
+}
+
+.light-mode .text-slate-500 {
+  color: #475569 !important;
+}
+
+/* Emerald accents */
+.light-mode .text-emerald-400 {
+  color: #047857 !important;
+}
+
+.light-mode .bg-emerald-500\/10,
+.light-mode .bg-emerald-500\/20,
+.light-mode .bg-emerald-600\/20 {
+  background-color: #d1fae5 !important;
+}
+
+.light-mode .border-emerald-500\/30,
+.light-mode .border-emerald-500\/20,
+.light-mode .border-emerald-500\/40 {
+  border-color: #10b981 !important;
+}
+
+/* Amber accents */
+.light-mode .text-amber-400,
+.light-mode .text-amber-300 {
+  color: #b45309 !important;
+}
+
+.light-mode .bg-amber-500\/10 {
+  background-color: #fef3c7 !important;
+}
+
+.light-mode .border-amber-500\/30 {
+  border-color: #f59e0b !important;
+}
+
+/* Rose & Sky accents */
+.light-mode .text-rose-400 {
+  color: #be123c !important;
+}
+
+.light-mode .bg-rose-500\/10 {
+  background-color: #ffe4e6 !important;
+}
+
+.light-mode .text-sky-400,
+.light-mode .text-indigo-400 {
+  color: #0369a1 !important;
+}
+
+.light-mode .bg-sky-500\/10,
+.light-mode .bg-indigo-500\/10 {
+  background-color: #e0f2fe !important;
+}
+
+/* Form inputs */
+.light-mode input,
+.light-mode select,
+.light-mode textarea {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #94a3b8 !important;
+}
+
+.light-mode input::placeholder,
+.light-mode textarea::placeholder {
+  color: #64748b !important;
+}
+
+/* Hover states */
+.light-mode .hover\:bg-slate-800:hover,
+.light-mode .hover\:bg-slate-700\/80:hover {
+  background-color: #cbd5e1 !important;
+}
+
+.light-mode .hover\:text-white:hover {
+  color: #000000 !important;
+}
+
